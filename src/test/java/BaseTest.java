@@ -39,10 +39,10 @@ public class BaseTest {
         open(baseURL);
     }
 
-//    @AfterClass
-//    public void afterClass() {
-//        logger.info("Tests ended");
-//        webDriver.quit();
-//    }
+    @AfterClass
+    public void afterClass() {
+        logger.info("Tests ended");
+        webDriver.quit();
+    }
 
 }
